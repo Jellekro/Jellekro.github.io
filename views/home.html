@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Portfolio</title>
+
+    <style>
+      #profile_pic {
+        margin-right: 20px;
+        border: double gray;
+        border-width: medium;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="heading"> Andy Worth's Portfolio </h1>
+    </header>
+
+    <main>
+      <img id="profile_pic" src="profile_pic.jpg" align="left" alt="Profile Photo" width=150>
+      
+      <p> Hello! My name is Andy and I'm a third year co-op student at the University of British Columbia. I'm majoring in Cognitive Systems: Computational Intelligence and Design; a part of the Computer Science Department. I'm interested in:
+        <ul>
+          <li> Hiking </li>
+          <li> Coding </li>
+          <li> Learning </li>
+        </ul>
+      </p>
+      
+      View my resume <a href="resume.html"> here</a>! <br>
+      View my transcript <a href="transcript.html">here</a>! <br><br>
+
+      <form>
+        What do you think of my website? <br>
+        <input type="text" placeholder="Give your feedback here..." name="feedback"> <br>
+        <input type="submit"> <br><br>
+        
+        <!--commented out stuff-->
+        Enter password:
+        <input type="password" name="password" placeholder="Password"> <br><br>
+
+        Which part of my website needs the most improvement? <br>
+        <input type="radio" name="website_part" value="transcript"> Transcript
+        <input type="radio" name="website_part" value="resume"> Resume
+        <input type="radio" name="website_part" value="profile_pic"> Profile Photo
+        <input type="radio" name="website_part" value="home_page"> Home Page
+        
+      </form>
+      <br>
+    </main>
+
+    <footer>
+      Thanks for visiting my website! Check back soon for updates.
+    </footer>
+  </body>
+</html>

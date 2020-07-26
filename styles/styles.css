@@ -1,0 +1,26 @@
+/*
+.<className> {body}   //this is a class selector and there can be multiple of this
+#<idName> {body}      //this is an id and there can only be one of this
+<area> {<modified properties}
+*/
+.heading {
+  color: black;
+  text-align: center;
+}
+
+body {
+  /* background-color: salmon;*/
+  background-color: #ffffea;        /*use hex for colors to be consistent across browsers    */
+  font-family: Arial, sans-serif;   /*Arial is primary font with sans-serif backup*/
+  padding: 10px;                    /* distance of contents (i.e. words) from borders of box */
+  margin: 10px;                     /* distance between borders of different boxes           */
+  /*border: 3px solid black;           some properties take multiple parameters              */
+}
+
+/* #sidebar {
+  background-color: red;
+} */
+
+/* SPECIFICITY */
+/* STYLES WRITTEN LOWER IN THE FILE OVERRIDE HIGHER STYLES */
+/* priority order is: in-line attributing (avoid), ID, class, and element type */
